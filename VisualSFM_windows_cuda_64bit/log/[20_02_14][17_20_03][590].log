@@ -1,0 +1,1496 @@
+
+VisualSFM 3D reconstruction, begin...
+Searching images in the specified folder
+0: masked0
+image_size:	600x400
+1: masked1
+image_size:	600x400
+2: masked10
+image_size:	600x400
+3: masked11
+image_size:	600x400
+4: masked12
+image_size:	600x400
+5: masked13
+image_size:	600x400
+6: masked14
+image_size:	600x400
+7: masked15
+image_size:	600x400
+8: masked16
+image_size:	600x400
+9: masked17
+image_size:	600x400
+10: masked18
+image_size:	600x400
+11: masked19
+image_size:	600x400
+12: masked2
+image_size:	600x400
+13: masked20
+image_size:	600x400
+14: masked21
+image_size:	600x400
+15: masked22
+image_size:	600x400
+16: masked23
+image_size:	600x400
+17: masked24
+image_size:	600x400
+18: masked25
+image_size:	600x400
+19: masked26
+image_size:	600x400
+20: masked27
+image_size:	600x400
+21: masked28
+image_size:	600x400
+22: masked29
+image_size:	600x400
+23: masked3
+image_size:	600x400
+24: masked30
+image_size:	600x400
+25: masked31
+image_size:	600x400
+26: masked32
+image_size:	600x400
+27: masked4
+image_size:	600x400
+28: masked5
+image_size:	600x400
+29: masked6
+image_size:	600x400
+30: masked7
+image_size:	600x400
+31: masked8
+image_size:	600x400
+32: masked9
+image_size:	600x400
+Loading image pixel data ...done in 0s
+Compute all missing matches
+********* WARNING ***********
+More than 87MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 600x400, 	71, 2.07sec
+SIFT: 0001, 600x400, 	72, 0.03sec
+SIFT: 0002, 600x400, 	78, 0.03sec
+SIFT: 0003, 600x400, 	80, 0.03sec
+SIFT: 0004, 600x400, 	80, 0.03sec
+SIFT: 0005, 600x400, 	65, 0.03sec
+SIFT: 0006, 600x400, 	77, 0.04sec
+SIFT: 0007, 600x400, 	81, 0.03sec
+SIFT: 0008, 600x400, 	72, 0.03sec
+SIFT: 0009, 600x400, 	82, 0.03sec
+SIFT: 0010, 600x400, 	77, 0.03sec
+SIFT: 0011, 600x400, 	65, 0.04sec
+SIFT: 0012, 600x400, 	83, 0.04sec
+SIFT: 0013, 600x400, 	81, 0.03sec
+SIFT: 0014, 600x400, 	64, 0.03sec
+SIFT: 0015, 600x400, 	60, 0.03sec
+SIFT: 0016, 600x400, 	72, 0.03sec
+SIFT: 0017, 600x400, 	76, 0.03sec
+SIFT: 0018, 600x400, 	71, 0.03sec
+SIFT: 0019, 600x400, 	80, 0.03sec
+SIFT: 0020, 600x400, 	74, 0.03sec
+SIFT: 0021, 600x400, 	77, 0.03sec
+SIFT: 0022, 600x400, 	84, 0.03sec
+SIFT: 0023, 600x400, 	73, 0.03sec
+SIFT: 0024, 600x400, 	74, 0.03sec
+SIFT: 0025, 600x400, 	71, 0.02sec
+SIFT: 0026, 600x400, 	80, 0.02sec
+SIFT: 0027, 600x400, 	74, 0.03sec
+SIFT: 0028, 600x400, 	74, 0.03sec
+SIFT: 0029, 600x400, 	83, 0.03sec
+SIFT: 0030, 600x400, 	75, 0.04sec
+SIFT: 0031, 600x400, 	76, 0.04sec
+SIFT: 0032, 600x400, 	70, 0.03sec
+
+###########-------timing------#########
+33 Feature Detection finished, 4 sec used
+#############################
+
+528 pairs to compute match
+NOTE: using 3 matching workers
+0001 and 0002: 32 matches, 0.01sec, #2
+0001 and 0002: [23/32], H[10], 0.00sec
+0000 and 0002: 33 matches, 0.02sec, #1
+0000 and 0002: [31/33], H[11], 0.00sec
+0000 and 0003: 29 matches, 0.01sec, #2
+0000 and 0003: [25/29], H[11], 0.00sec
+0003 and 0005: 48 matches, 0.02sec, #1
+0003 and 0005: [44/48], H[14], 0.00sec
+0001 and 0003: 34 matches, 0.03sec, #2
+0004 and 0005: 32 matches, 0.02sec, #1
+0001 and 0003: [30/34], H[10], 0.00sec
+0004 and 0005: [31/32], H[22], 0.00sec
+0000 and 0006: 28 matches, 0.01sec, #1
+0000 and 0006: [22/28], H[15], 0.00sec
+0000 and 0001: 42 matches, 0.14sec, #0
+0000 and 0001: [42/42], H[30], 0.00sec
+0002 and 0003: 48 matches, 0.02sec, #2
+0002 and 0003: [46/48], H[26], 0.00sec
+0001 and 0006: 23 matches, 0.02sec, #1
+0002 and 0007: 35 matches, 0.01sec, #0
+0002 and 0007: [28/35], H[10], 0.00sec
+0002 and 0006: 47 matches, 0.01sec, #1
+0000 and 0004: 26 matches, 0.01sec, #2
+0002 and 0006: [38/47], H[17], 0.00sec
+0000 and 0004: [19/26], H[4], 0.00sec
+0003 and 0007: 44 matches, 0.01sec, #0
+0003 and 0007: [37/44], H[14], 0.00sec
+0003 and 0006: 47 matches, 0.01sec, #1
+0001 and 0004: 31 matches, 0.01sec, #2
+0003 and 0006: [43/47], H[21], 0.00sec
+0001 and 0004: [21/31], H[11], 0.00sec
+0004 and 0007: 40 matches, 0.01sec, #0
+0004 and 0007: [33/40], H[18], 0.00sec
+0002 and 0004: 48 matches, 0.01sec, #2
+0004 and 0006: 49 matches, 0.02sec, #1
+0002 and 0004: [44/48], H[28], 0.00sec
+0004 and 0006: [44/49], H[34], 0.00sec
+0005 and 0007: 36 matches, 0.01sec, #0
+0005 and 0007: [32/36], H[23], 0.00sec
+0005 and 0006: 38 matches, 0.01sec, #1
+0005 and 0006: [35/38], H[14], 0.00sec
+0003 and 0004: 51 matches, 0.02sec, #2
+0003 and 0004: [46/51], H[38], 0.00sec
+0006 and 0007: 48 matches, 0.02sec, #0
+0006 and 0007: [41/48], H[23], 0.00sec
+0000 and 0005: 22 matches, 0.01sec, #2
+0000 and 0007: 26 matches, 0.02sec, #1
+0000 and 0007: [20/26], H[5], 0.00sec
+0001 and 0005: 29 matches, 0.02sec, #2
+0001 and 0005: [24/29], H[19], 0.00sec
+0000 and 0008: 26 matches, 0.02sec, #0
+0000 and 0008: [19/26], H[9], 0.00sec
+0001 and 0007: 21 matches, 0.01sec, #1
+0005 and 0008: 27 matches, 0.01sec, #1
+0002 and 0005: 34 matches, 0.01sec, #2
+0002 and 0005: [29/34], H[16], 0.00sec
+0005 and 0008: [25/27], H[15], 0.00sec
+0001 and 0008: 15 matches, 0.01sec, #0
+0002 and 0008: 36 matches, 0.01sec, #0
+0002 and 0008: [30/36], H[9], 0.00sec
+0007 and 0009: 37 matches, 0.01sec, #2
+0006 and 0008: 36 matches, 0.01sec, #1
+0007 and 0009: [33/37], H[16], 0.00sec
+0006 and 0008: [29/36], H[13], 0.00sec
+0003 and 0008: 27 matches, 0.02sec, #0
+0008 and 0009: 41 matches, 0.02sec, #2
+0003 and 0008: [24/27], H[16], 0.00sec
+0008 and 0009: [36/41], H[20], 0.00sec
+0007 and 0008: 41 matches, 0.02sec, #1
+0007 and 0008: [36/41], H[28], 0.00sec
+0004 and 0008: 33 matches, 0.01sec, #0
+0000 and 0010: 23 matches, 0.01sec, #2
+0004 and 0008: [26/33], H[7], 0.00sec
+0000 and 0009: 23 matches, 0.01sec, #1
+0001 and 0010: 16 matches, 0.01sec, #2
+0001 and 0009: 21 matches, 0.01sec, #1
+0008 and 0010: 37 matches, 0.01sec, #0
+0002 and 0010: 30 matches, 0.02sec, #2
+0002 and 0010: [27/30], H[15], 0.00sec
+0008 and 0010: [31/37], H[15], 0.00sec
+0002 and 0009: 36 matches, 0.01sec, #1
+0002 and 0009: [27/36], H[17], 0.00sec
+0003 and 0010: 31 matches, 0.01sec, #2
+0003 and 0010: [26/31], H[9], 0.00sec
+0009 and 0010: 38 matches, 0.02sec, #0
+0003 and 0009: 36 matches, 0.02sec, #1
+0009 and 0010: [31/38], H[7], 0.00sec
+0003 and 0009: [28/36], H[10], 0.00sec
+0004 and 0010: 36 matches, 0.01sec, #2
+0004 and 0010: [32/36], H[20], 0.00sec
+0000 and 0011: 22 matches, 0.01sec, #0
+0004 and 0009: 27 matches, 0.01sec, #1
+0004 and 0009: [23/27], H[7], 0.00sec
+0001 and 0011: 27 matches, 0.01sec, #0
+0005 and 0010: 25 matches, 0.01sec, #2
+0005 and 0010: [23/25], H[14], 0.00sec
+0001 and 0011: [23/27], H[10], 0.00sec
+0005 and 0009: 28 matches, 0.01sec, #1
+0005 and 0009: [22/28], H[12], 0.00sec
+0002 and 0011: 28 matches, 0.01sec, #0
+0006 and 0010: 36 matches, 0.01sec, #2
+0002 and 0011: [21/28], H[11], 0.00sec
+0006 and 0010: [30/36], H[15], 0.00sec
+0006 and 0009: 34 matches, 0.01sec, #1
+0006 and 0009: [28/34], H[17], 0.00sec
+0007 and 0010: 44 matches, 0.01sec, #2
+0007 and 0010: [38/44], H[14], 0.00sec
+0008 and 0011: 28 matches, 0.03sec, #1
+0007 and 0012: 30 matches, 0.01sec, #2
+0008 and 0011: [24/28], H[8], 0.00sec
+0007 and 0012: [25/30], H[8], 0.00sec
+0003 and 0011: 25 matches, 0.07sec, #0
+0003 and 0011: [20/25], H[11], 0.00sec
+0008 and 0012: 23 matches, 0.01sec, #2
+0009 and 0012: 27 matches, 0.01sec, #2
+0009 and 0012: [17/27], H[7], 0.00sec
+0010 and 0012: 25 matches, 0.01sec, #2
+0010 and 0012: [17/25], H[7], 0.00sec
+0009 and 0011: 41 matches, 0.04sec, #1
+0009 and 0011: [30/41], H[17], 0.00sec
+0011 and 0012: 27 matches, 0.05sec, #2
+0011 and 0012: [17/27], H[9], 0.00sec
+0004 and 0011: 21 matches, 0.04sec, #0
+0010 and 0011: 30 matches, 0.05sec, #1
+0010 and 0011: [22/30], H[5], 0.00sec
+0000 and 0013: 26 matches, 0.02sec, #2
+0000 and 0013: [19/26], H[8], 0.00sec
+0005 and 0011: 25 matches, 0.04sec, #0
+0005 and 0011: [21/25], H[9], 0.00sec
+0000 and 0012: 46 matches, 0.01sec, #1
+0000 and 0012: [40/46], H[10], 0.00sec
+0001 and 0013: 20 matches, 0.02sec, #2
+0002 and 0013: 35 matches, 0.02sec, #2
+0001 and 0012: 44 matches, 0.01sec, #1
+0001 and 0012: [39/44], H[27], 0.00sec
+0002 and 0013: [26/35], H[11], 0.00sec
+0006 and 0011: 32 matches, 0.04sec, #0
+0006 and 0011: [23/32], H[10], 0.00sec
+0003 and 0013: 19 matches, 0.03sec, #2
+0007 and 0011: 24 matches, 0.02sec, #0
+0002 and 0012: 34 matches, 0.05sec, #1
+0004 and 0013: 22 matches, 0.02sec, #2
+0002 and 0012: [27/34], H[14], 0.00sec
+0005 and 0013: 18 matches, 0.01sec, #0
+0006 and 0013: 21 matches, 0.02sec, #0
+0002 and 0014: 28 matches, 0.04sec, #2
+0007 and 0013: 33 matches, 0.02sec, #0
+0002 and 0014: [22/28], H[10], 0.00sec
+0007 and 0013: [29/33], H[12], 0.00sec
+0008 and 0013: 29 matches, 0.02sec, #0
+0008 and 0013: [25/29], H[11], 0.00sec
+0003 and 0012: 31 matches, 0.02sec, #1
+0003 and 0012: [25/31], H[10], 0.00sec
+0009 and 0013: 41 matches, 0.02sec, #0
+0004 and 0012: 35 matches, 0.01sec, #1
+0009 and 0013: [33/41], H[12], 0.00sec
+0004 and 0012: [28/35], H[11], 0.00sec
+0003 and 0014: 26 matches, 0.01sec, #2
+0003 and 0014: [21/26], H[7], 0.00sec
+0005 and 0012: 28 matches, 0.01sec, #1
+0005 and 0012: [24/28], H[11], 0.00sec
+0010 and 0013: 36 matches, 0.01sec, #0
+0010 and 0013: [28/36], H[16], 0.00sec
+0004 and 0014: 24 matches, 0.02sec, #2
+0006 and 0012: 28 matches, 0.01sec, #1
+0005 and 0014: 16 matches, 0.02sec, #2
+0006 and 0012: [22/28], H[9], 0.00sec
+0011 and 0013: 40 matches, 0.02sec, #0
+0011 and 0013: [40/40], H[31], 0.00sec
+0006 and 0014: 23 matches, 0.02sec, #2
+0012 and 0014: 28 matches, 0.01sec, #1
+0012 and 0014: [19/28], H[6], 0.00sec
+0007 and 0014: 29 matches, 0.02sec, #2
+0007 and 0014: [23/29], H[12], 0.00sec
+0012 and 0013: 26 matches, 0.02sec, #0
+0012 and 0013: [20/26], H[7], 0.00sec
+0008 and 0014: 30 matches, 0.01sec, #2
+0008 and 0014: [26/30], H[10], 0.00sec
+0013 and 0014: 38 matches, 0.02sec, #1
+0013 and 0014: [33/38], H[13], 0.00sec
+0000 and 0015: 22 matches, 0.01sec, #1
+0000 and 0014: 26 matches, 0.02sec, #0
+0000 and 0014: [20/26], H[10], 0.00sec
+0009 and 0014: 32 matches, 0.03sec, #2
+0009 and 0014: [29/32], H[16], 0.00sec
+0001 and 0015: 18 matches, 0.01sec, #1
+0002 and 0015: 26 matches, 0.01sec, #1
+0002 and 0015: [19/26], H[12], 0.00sec
+0001 and 0014: 18 matches, 0.02sec, #0
+0003 and 0015: 23 matches, 0.01sec, #1
+0010 and 0014: 31 matches, 0.02sec, #2
+0010 and 0014: [26/31], H[8], 0.00sec
+0008 and 0015: 25 matches, 0.02sec, #0
+0008 and 0015: [21/25], H[10], 0.00sec
+0004 and 0015: 24 matches, 0.02sec, #1
+0011 and 0014: 33 matches, 0.02sec, #2
+0011 and 0014: [28/33], H[12], 0.00sec
+0005 and 0015: 15 matches, 0.02sec, #1
+0009 and 0015: 33 matches, 0.02sec, #0
+0009 and 0015: [25/33], H[15], 0.00sec
+0006 and 0015: 28 matches, 0.02sec, #1
+0006 and 0015: [24/28], H[9], 0.00sec
+0010 and 0015: 29 matches, 0.03sec, #0
+0010 and 0015: [23/29], H[8], 0.00sec
+0007 and 0015: 30 matches, 0.02sec, #1
+0007 and 0015: [25/30], H[11], 0.00sec
+0011 and 0015: 37 matches, 0.02sec, #0
+0003 and 0016: 23 matches, 0.07sec, #2
+0011 and 0015: [30/37], H[9], 0.00sec
+0013 and 0016: 33 matches, 0.01sec, #1
+0013 and 0016: [27/33], H[15], 0.00sec
+0004 and 0016: 26 matches, 0.02sec, #2
+0004 and 0016: [20/26], H[11], 0.00sec
+0012 and 0015: 23 matches, 0.01sec, #0
+0014 and 0016: 37 matches, 0.01sec, #1
+0014 and 0016: [36/37], H[23], 0.00sec
+0005 and 0016: 19 matches, 0.01sec, #2
+0013 and 0015: 37 matches, 0.02sec, #0
+0013 and 0015: [30/37], H[17], 0.00sec
+0006 and 0016: 23 matches, 0.02sec, #2
+0015 and 0016: 32 matches, 0.02sec, #1
+0015 and 0016: [30/32], H[15], 0.00sec
+0007 and 0016: 30 matches, 0.01sec, #2
+0007 and 0016: [22/30], H[9], 0.00sec
+0014 and 0015: 46 matches, 0.01sec, #0
+0014 and 0015: [44/46], H[25], 0.00sec
+0000 and 0017: 20 matches, 0.01sec, #1
+0001 and 0017: 23 matches, 0.01sec, #1
+0008 and 0016: 23 matches, 0.02sec, #2
+0009 and 0016: 28 matches, 0.01sec, #2
+0000 and 0016: 15 matches, 0.02sec, #0
+0009 and 0016: [23/28], H[11], 0.00sec
+0002 and 0017: 24 matches, 0.04sec, #1
+0001 and 0016: 18 matches, 0.02sec, #0
+0010 and 0016: 33 matches, 0.02sec, #2
+0010 and 0016: [24/33], H[7], 0.00sec
+0003 and 0017: 33 matches, 0.03sec, #1
+0003 and 0017: [25/33], H[9], 0.00sec
+0011 and 0016: 33 matches, 0.02sec, #2
+0011 and 0016: [26/33], H[8], 0.00sec
+0002 and 0016: 24 matches, 0.04sec, #0
+0007 and 0017: 30 matches, 0.01sec, #0
+0012 and 0016: 21 matches, 0.01sec, #2
+0007 and 0017: [25/30], H[9], 0.00sec
+0004 and 0017: 27 matches, 0.01sec, #1
+0004 and 0017: [23/27], H[6], 0.00sec
+0000 and 0018: 22 matches, 0.01sec, #2
+0008 and 0017: 24 matches, 0.01sec, #0
+0001 and 0018: 17 matches, 0.01sec, #2
+0005 and 0017: 20 matches, 0.01sec, #1
+0006 and 0017: 26 matches, 0.01sec, #1
+0006 and 0017: [19/26], H[7], 0.00sec
+0009 and 0017: 30 matches, 0.02sec, #0
+0009 and 0017: [24/30], H[7], 0.00sec
+0010 and 0018: 31 matches, 0.01sec, #1
+0010 and 0018: [23/31], H[15], 0.00sec
+0002 and 0018: 27 matches, 0.05sec, #2
+0010 and 0017: 27 matches, 0.01sec, #0
+0002 and 0018: [20/27], H[9], 0.00sec
+0010 and 0017: [21/27], H[10], 0.00sec
+0011 and 0018: 27 matches, 0.02sec, #1
+0011 and 0018: [20/27], H[8], 0.00sec
+0011 and 0017: 35 matches, 0.01sec, #0
+0011 and 0017: [25/35], H[14], 0.00sec
+0012 and 0017: 30 matches, 0.02sec, #0
+0012 and 0017: [22/30], H[5], 0.00sec
+0012 and 0018: 24 matches, 0.03sec, #1
+0003 and 0018: 28 matches, 0.03sec, #2
+0003 and 0018: [22/28], H[9], 0.00sec
+0013 and 0018: 36 matches, 0.03sec, #1
+0013 and 0018: [27/36], H[13], 0.00sec
+0013 and 0017: 32 matches, 0.02sec, #0
+0013 and 0017: [25/32], H[12], 0.00sec
+0004 and 0018: 28 matches, 0.02sec, #2
+0004 and 0018: [23/28], H[8], 0.00sec
+0014 and 0018: 40 matches, 0.02sec, #1
+0014 and 0018: [32/40], H[20], 0.00sec
+0014 and 0017: 32 matches, 0.02sec, #0
+0014 and 0017: [29/32], H[14], 0.00sec
+0005 and 0018: 19 matches, 0.01sec, #2
+0015 and 0018: 43 matches, 0.01sec, #1
+0015 and 0018: [36/43], H[12], 0.00sec
+0015 and 0017: 34 matches, 0.01sec, #0
+0015 and 0017: [27/34], H[11], 0.00sec
+0006 and 0018: 23 matches, 0.01sec, #2
+0007 and 0018: 23 matches, 0.01sec, #2
+0016 and 0018: 35 matches, 0.01sec, #1
+0016 and 0018: [29/35], H[9], 0.00sec
+0016 and 0017: 40 matches, 0.01sec, #0
+0016 and 0017: [30/40], H[6], 0.00sec
+0008 and 0018: 27 matches, 0.02sec, #2
+0008 and 0018: [19/27], H[9], 0.00sec
+0017 and 0018: 39 matches, 0.01sec, #1
+0017 and 0018: [32/39], H[14], 0.00sec
+0009 and 0018: 34 matches, 0.01sec, #2
+0009 and 0018: [27/34], H[10], 0.00sec
+0000 and 0019: 26 matches, 0.01sec, #1
+0002 and 0019: 25 matches, 0.04sec, #0
+0000 and 0019: [18/26], H[9], 0.00sec
+0002 and 0019: [23/25], H[11], 0.00sec
+0012 and 0019: 26 matches, 0.01sec, #2
+0012 and 0019: [18/26], H[7], 0.00sec
+0001 and 0019: 21 matches, 0.01sec, #1
+0013 and 0019: 26 matches, 0.03sec, #2
+0013 and 0019: [22/26], H[11], 0.00sec
+0003 and 0020: 24 matches, 0.03sec, #1
+0003 and 0019: 30 matches, 0.03sec, #0
+0003 and 0019: [25/30], H[5], 0.00sec
+0004 and 0020: 30 matches, 0.01sec, #1
+0004 and 0020: [24/30], H[13], 0.00sec
+0014 and 0019: 34 matches, 0.01sec, #2
+0014 and 0019: [30/34], H[13], 0.00sec
+0005 and 0020: 18 matches, 0.01sec, #1
+0004 and 0019: 25 matches, 0.02sec, #0
+0004 and 0019: [21/25], H[12], 0.00sec
+0006 and 0020: 21 matches, 0.01sec, #1
+0007 and 0020: 28 matches, 0.01sec, #1
+0007 and 0020: [21/28], H[10], 0.00sec
+0015 and 0019: 34 matches, 0.03sec, #2
+0015 and 0019: [27/34], H[9], 0.00sec
+0005 and 0019: 20 matches, 0.02sec, #0
+0008 and 0020: 25 matches, 0.01sec, #1
+0008 and 0020: [20/25], H[9], 0.00sec
+0006 and 0019: 28 matches, 0.02sec, #0
+0006 and 0019: [23/28], H[13], 0.00sec
+0016 and 0019: 35 matches, 0.04sec, #2
+0016 and 0019: [26/35], H[13], 0.00sec
+0009 and 0020: 25 matches, 0.01sec, #1
+0009 and 0020: [18/25], H[9], 0.00sec
+0010 and 0020: 24 matches, 0.01sec, #1
+0007 and 0019: 28 matches, 0.02sec, #0
+0007 and 0019: [23/28], H[10], 0.00sec
+0017 and 0019: 45 matches, 0.01sec, #2
+0017 and 0019: [36/45], H[25], 0.00sec
+0011 and 0020: 32 matches, 0.01sec, #1
+0011 and 0020: [24/32], H[6], 0.00sec
+0008 and 0019: 29 matches, 0.02sec, #0
+0008 and 0019: [21/29], H[13], 0.00sec
+0012 and 0020: 27 matches, 0.02sec, #1
+0012 and 0020: [20/27], H[8], 0.00sec
+0018 and 0019: 48 matches, 0.03sec, #2
+0018 and 0019: [42/48], H[19], 0.00sec
+0013 and 0020: 30 matches, 0.02sec, #1
+0013 and 0020: [24/30], H[14], 0.00sec
+0009 and 0019: 37 matches, 0.04sec, #0
+0009 and 0019: [28/37], H[17], 0.00sec
+0000 and 0020: 26 matches, 0.02sec, #2
+0014 and 0020: 35 matches, 0.01sec, #1
+0000 and 0020: [20/26], H[11], 0.00sec
+0014 and 0020: [27/35], H[9], 0.00sec
+0015 and 0020: 26 matches, 0.02sec, #1
+0015 and 0020: [22/26], H[11], 0.00sec
+0010 and 0019: 27 matches, 0.02sec, #0
+0001 and 0020: 23 matches, 0.02sec, #2
+0010 and 0019: [20/27], H[11], 0.00sec
+0016 and 0020: 33 matches, 0.01sec, #1
+0016 and 0020: [23/33], H[13], 0.00sec
+0011 and 0019: 33 matches, 0.01sec, #0
+0002 and 0020: 23 matches, 0.04sec, #2
+0017 and 0020: 35 matches, 0.01sec, #1
+0011 and 0019: [24/33], H[6], 0.00sec
+0017 and 0020: [26/35], H[9], 0.00sec
+0003 and 0021: 27 matches, 0.01sec, #2
+0003 and 0021: [22/27], H[8], 0.00sec
+0018 and 0020: 39 matches, 0.02sec, #1
+0018 and 0020: [31/39], H[16], 0.00sec
+0013 and 0021: 29 matches, 0.02sec, #0
+0013 and 0021: [23/29], H[8], 0.00sec
+0004 and 0021: 26 matches, 0.01sec, #2
+0004 and 0021: [21/26], H[7], 0.00sec
+0005 and 0021: 19 matches, 0.01sec, #2
+0014 and 0021: 33 matches, 0.01sec, #0
+0019 and 0020: 48 matches, 0.03sec, #1
+0019 and 0020: [40/48], H[27], 0.00sec
+0014 and 0021: [26/33], H[11], 0.00sec
+0006 and 0021: 23 matches, 0.01sec, #2
+0007 and 0021: 19 matches, 0.01sec, #2
+0015 and 0021: 33 matches, 0.01sec, #0
+0015 and 0021: [28/33], H[11], 0.00sec
+0008 and 0021: 23 matches, 0.01sec, #2
+0000 and 0021: 23 matches, 0.01sec, #1
+0009 and 0021: 27 matches, 0.02sec, #2
+0001 and 0021: 19 matches, 0.02sec, #1
+0009 and 0021: [18/27], H[5], 0.00sec
+0016 and 0021: 23 matches, 0.02sec, #0
+0002 and 0021: 24 matches, 0.01sec, #1
+0017 and 0021: 36 matches, 0.01sec, #0
+0017 and 0021: [28/36], H[15], 0.00sec
+0010 and 0021: 22 matches, 0.01sec, #2
+0002 and 0022: 18 matches, 0.02sec, #1
+0011 and 0021: 29 matches, 0.02sec, #2
+0011 and 0021: [20/29], H[9], 0.00sec
+0018 and 0021: 39 matches, 0.01sec, #0
+0018 and 0021: [31/39], H[16], 0.00sec
+0003 and 0022: 23 matches, 0.03sec, #1
+0004 and 0022: 21 matches, 0.01sec, #1
+0012 and 0021: 21 matches, 0.02sec, #2
+0019 and 0021: 45 matches, 0.02sec, #0
+0019 and 0021: [34/45], H[23], 0.00sec
+0012 and 0022: 19 matches, 0.01sec, #2
+0005 and 0022: 17 matches, 0.02sec, #1
+0013 and 0022: 22 matches, 0.01sec, #2
+0006 and 0022: 17 matches, 0.01sec, #1
+0020 and 0021: 45 matches, 0.01sec, #0
+0020 and 0021: [44/45], H[10], 0.00sec
+0014 and 0022: 27 matches, 0.01sec, #2
+0007 and 0022: 22 matches, 0.01sec, #1
+0014 and 0022: [24/27], H[6], 0.00sec
+0000 and 0022: 13 matches, 0.01sec, #0
+0008 and 0022: 18 matches, 0.02sec, #1
+0015 and 0022: 28 matches, 0.02sec, #2
+0015 and 0022: [23/28], H[15], 0.00sec
+0001 and 0022: 16 matches, 0.03sec, #0
+0009 and 0022: 18 matches, 0.04sec, #1
+0000 and 0023: 33 matches, 0.02sec, #0
+0000 and 0023: [29/33], H[9], 0.00sec
+0010 and 0022: 23 matches, 0.03sec, #1
+0016 and 0022: 29 matches, 0.02sec, #2
+0016 and 0022: [21/29], H[11], 0.00sec
+0001 and 0023: 32 matches, 0.02sec, #0
+0001 and 0023: [28/32], H[14], 0.00sec
+0011 and 0022: 22 matches, 0.02sec, #1
+0017 and 0022: 35 matches, 0.02sec, #2
+0010 and 0023: 23 matches, 0.03sec, #1
+0017 and 0022: [26/35], H[10], 0.00sec
+0002 and 0023: 32 matches, 0.03sec, #0
+0002 and 0023: [28/32], H[18], 0.00sec
+0011 and 0023: 23 matches, 0.03sec, #1
+0018 and 0022: 34 matches, 0.02sec, #2
+0018 and 0022: [28/34], H[11], 0.00sec
+0012 and 0023: 43 matches, 0.01sec, #1
+0012 and 0023: [37/43], H[8], 0.00sec
+0003 and 0023: 33 matches, 0.02sec, #0
+0003 and 0023: [32/33], H[21], 0.00sec
+0019 and 0022: 34 matches, 0.01sec, #2
+0019 and 0022: [28/34], H[16], 0.00sec
+0013 and 0023: 21 matches, 0.02sec, #1
+0014 and 0023: 23 matches, 0.01sec, #1
+0020 and 0022: 43 matches, 0.01sec, #2
+0020 and 0022: [39/43], H[20], 0.00sec
+0004 and 0023: 28 matches, 0.02sec, #0
+0004 and 0023: [23/28], H[8], 0.00sec
+0015 and 0023: 19 matches, 0.01sec, #1
+0021 and 0022: 50 matches, 0.01sec, #2
+0021 and 0022: [42/50], H[21], 0.00sec
+0016 and 0023: 14 matches, 0.02sec, #1
+0005 and 0023: 30 matches, 0.02sec, #0
+0005 and 0023: [26/30], H[11], 0.00sec
+0017 and 0023: 22 matches, 0.01sec, #1
+0020 and 0023: 18 matches, 0.01sec, #2
+0018 and 0023: 20 matches, 0.01sec, #1
+0006 and 0023: 29 matches, 0.02sec, #0
+0006 and 0023: [26/29], H[9], 0.00sec
+0021 and 0023: 15 matches, 0.02sec, #2
+0019 and 0023: 25 matches, 0.02sec, #1
+0019 and 0023: [14/25], H[8], 0.01sec
+0022 and 0023: 13 matches, 0.02sec, #2
+0007 and 0023: 27 matches, 0.02sec, #0
+0000 and 0024: 18 matches, 0.01sec, #2
+0007 and 0023: [21/27], H[5], 0.00sec
+0001 and 0024: 18 matches, 0.01sec, #2
+0007 and 0024: 17 matches, 0.01sec, #1
+0008 and 0023: 28 matches, 0.01sec, #0
+0008 and 0023: [23/28], H[11], 0.00sec
+0008 and 0024: 24 matches, 0.02sec, #1
+0002 and 0024: 23 matches, 0.03sec, #2
+0009 and 0024: 25 matches, 0.01sec, #1
+0009 and 0024: [18/25], H[6], 0.00sec
+0009 and 0023: 27 matches, 0.01sec, #0
+0009 and 0023: [18/27], H[10], 0.00sec
+0003 and 0024: 22 matches, 0.02sec, #2
+0010 and 0024: 23 matches, 0.01sec, #1
+0004 and 0024: 18 matches, 0.01sec, #2
+0011 and 0024: 28 matches, 0.01sec, #1
+0011 and 0024: [21/28], H[9], 0.00sec
+0017 and 0024: 27 matches, 0.01sec, #0
+0017 and 0024: [18/27], H[7], 0.00sec
+0005 and 0024: 19 matches, 0.01sec, #2
+0006 and 0024: 18 matches, 0.01sec, #2
+0012 and 0024: 20 matches, 0.02sec, #1
+0018 and 0024: 34 matches, 0.03sec, #0
+0018 and 0024: [30/34], H[6], 0.00sec
+0003 and 0025: 22 matches, 0.03sec, #2
+0013 and 0024: 26 matches, 0.02sec, #1
+0013 and 0024: [16/26], H[8], 0.01sec
+0019 and 0024: 34 matches, 0.01sec, #0
+0019 and 0024: [27/34], H[15], 0.00sec
+0004 and 0025: 15 matches, 0.03sec, #2
+0014 and 0024: 28 matches, 0.02sec, #1
+0005 and 0025: 13 matches, 0.02sec, #2
+0014 and 0024: [22/28], H[14], 0.00sec
+0020 and 0024: 39 matches, 0.02sec, #0
+0020 and 0024: [33/39], H[20], 0.00sec
+0006 and 0025: 12 matches, 0.03sec, #2
+0015 and 0024: 27 matches, 0.02sec, #1
+0015 and 0024: [20/27], H[8], 0.00sec
+0021 and 0024: 40 matches, 0.01sec, #0
+0021 and 0024: [36/40], H[12], 0.00sec
+0007 and 0025: 17 matches, 0.02sec, #2
+0016 and 0024: 28 matches, 0.01sec, #1
+0016 and 0024: [21/28], H[10], 0.00sec
+0022 and 0024: 44 matches, 0.01sec, #0
+0008 and 0025: 21 matches, 0.01sec, #2
+0022 and 0024: [42/44], H[26], 0.00sec
+0009 and 0025: 20 matches, 0.02sec, #2
+0023 and 0024: 11 matches, 0.01sec, #0
+0013 and 0025: 25 matches, 0.03sec, #1
+0013 and 0025: [20/25], H[9], 0.00sec
+0010 and 0025: 21 matches, 0.02sec, #2
+0000 and 0025: 18 matches, 0.02sec, #0
+0001 and 0025: 13 matches, 0.01sec, #0
+0011 and 0025: 22 matches, 0.02sec, #2
+0014 and 0025: 24 matches, 0.03sec, #1
+0012 and 0025: 20 matches, 0.01sec, #2
+0015 and 0025: 23 matches, 0.01sec, #1
+0023 and 0025: 11 matches, 0.01sec, #2
+0002 and 0025: 15 matches, 0.05sec, #0
+0024 and 0025: 34 matches, 0.02sec, #2
+0024 and 0025: [26/34], H[12], 0.00sec
+0016 and 0025: 24 matches, 0.03sec, #1
+0008 and 0026: 25 matches, 0.02sec, #0
+0008 and 0026: [17/25], H[5], 0.01sec
+0017 and 0025: 21 matches, 0.04sec, #1
+0000 and 0026: 21 matches, 0.04sec, #2
+0001 and 0026: 20 matches, 0.02sec, #2
+0018 and 0025: 26 matches, 0.03sec, #1
+0018 and 0025: [21/26], H[10], 0.00sec
+0009 and 0026: 23 matches, 0.03sec, #0
+0010 and 0026: 23 matches, 0.01sec, #0
+0019 and 0025: 32 matches, 0.01sec, #1
+0019 and 0025: [25/32], H[16], 0.00sec
+0011 and 0026: 23 matches, 0.01sec, #0
+0002 and 0026: 25 matches, 0.07sec, #2
+0020 and 0025: 32 matches, 0.02sec, #1
+0002 and 0026: [16/25], H[8], 0.00sec
+0012 and 0026: 24 matches, 0.02sec, #0
+0020 and 0025: [28/32], H[14], 0.00sec
+0013 and 0026: 32 matches, 0.01sec, #0
+0013 and 0026: [21/32], H[9], 0.00sec
+0021 and 0025: 36 matches, 0.01sec, #1
+0021 and 0025: [32/36], H[14], 0.00sec
+0022 and 0025: 36 matches, 0.01sec, #1
+0014 and 0026: 30 matches, 0.03sec, #0
+0022 and 0025: [31/36], H[10], 0.00sec
+0014 and 0026: [23/30], H[6], 0.00sec
+0018 and 0026: 25 matches, 0.03sec, #1
+0018 and 0026: [18/25], H[10], 0.00sec
+0003 and 0026: 25 matches, 0.03sec, #2
+0003 and 0026: [22/25], H[10], 0.00sec
+0015 and 0026: 21 matches, 0.02sec, #0
+0019 and 0026: 29 matches, 0.01sec, #1
+0019 and 0026: [25/29], H[8], 0.00sec
+0016 and 0026: 22 matches, 0.02sec, #0
+0004 and 0026: 21 matches, 0.02sec, #2
+0017 and 0026: 26 matches, 0.02sec, #0
+0017 and 0026: [24/26], H[8], 0.00sec
+0005 and 0026: 20 matches, 0.02sec, #2
+0020 and 0026: 33 matches, 0.02sec, #1
+0020 and 0026: [29/33], H[17], 0.00sec
+0006 and 0026: 23 matches, 0.02sec, #2
+0007 and 0026: 18 matches, 0.01sec, #2
+0021 and 0026: 27 matches, 0.01sec, #1
+0021 and 0026: [24/27], H[5], 0.00sec
+0012 and 0027: 46 matches, 0.01sec, #2
+0012 and 0027: [39/46], H[9], 0.00sec
+0002 and 0027: 40 matches, 0.05sec, #0
+0002 and 0027: [36/40], H[23], 0.00sec
+0022 and 0026: 29 matches, 0.01sec, #1
+0022 and 0026: [26/29], H[14], 0.00sec
+0013 and 0027: 31 matches, 0.01sec, #2
+0013 and 0027: [20/31], H[12], 0.00sec
+0023 and 0026: 24 matches, 0.01sec, #1
+0024 and 0026: 28 matches, 0.01sec, #1
+0024 and 0026: [24/28], H[10], 0.00sec
+0014 and 0027: 27 matches, 0.02sec, #2
+0014 and 0027: [22/27], H[9], 0.00sec
+0003 and 0027: 33 matches, 0.01sec, #0
+0003 and 0027: [31/33], H[16], 0.00sec
+0025 and 0026: 29 matches, 0.01sec, #1
+0025 and 0026: [27/29], H[10], 0.00sec
+0015 and 0027: 21 matches, 0.01sec, #2
+0004 and 0027: 37 matches, 0.01sec, #0
+0016 and 0027: 20 matches, 0.01sec, #2
+0004 and 0027: [34/37], H[13], 0.00sec
+0000 and 0027: 38 matches, 0.01sec, #1
+0000 and 0027: [33/38], H[11], 0.00sec
+0017 and 0027: 26 matches, 0.02sec, #2
+0017 and 0027: [22/26], H[10], 0.00sec
+0005 and 0027: 31 matches, 0.02sec, #0
+0005 and 0027: [27/31], H[15], 0.00sec
+0001 and 0027: 40 matches, 0.02sec, #1
+0001 and 0027: [36/40], H[11], 0.00sec
+0018 and 0027: 25 matches, 0.02sec, #2
+0018 and 0027: [16/25], H[6], 0.00sec
+0006 and 0027: 34 matches, 0.02sec, #0
+0006 and 0027: [31/34], H[19], 0.00sec
+0022 and 0027: 20 matches, 0.01sec, #1
+0023 and 0027: 30 matches, 0.02sec, #1
+0023 and 0027: [26/30], H[14], 0.00sec
+0019 and 0027: 22 matches, 0.03sec, #2
+0007 and 0027: 34 matches, 0.02sec, #0
+0007 and 0027: [29/34], H[13], 0.00sec
+0020 and 0027: 29 matches, 0.01sec, #2
+0020 and 0027: [18/29], H[8], 0.01sec
+0024 and 0027: 17 matches, 0.02sec, #1
+0008 and 0027: 27 matches, 0.01sec, #0
+0008 and 0027: [24/27], H[7], 0.00sec
+0025 and 0027: 9 matches, 0.02sec, #1
+0026 and 0027: 22 matches, 0.01sec, #1
+0009 and 0027: 28 matches, 0.01sec, #0
+0009 and 0027: [19/28], H[8], 0.00sec
+0000 and 0028: 36 matches, 0.01sec, #1
+0000 and 0028: [31/36], H[12], 0.00sec
+0001 and 0028: 34 matches, 0.01sec, #1
+0021 and 0027: 20 matches, 0.06sec, #2
+0001 and 0028: [30/34], H[14], 0.00sec
+0010 and 0027: 28 matches, 0.02sec, #0
+0010 and 0027: [23/28], H[13], 0.00sec
+0005 and 0028: 21 matches, 0.02sec, #2
+0002 and 0028: 38 matches, 0.01sec, #1
+0002 and 0028: [32/38], H[13], 0.00sec
+0011 and 0027: 32 matches, 0.01sec, #0
+0006 and 0028: 28 matches, 0.01sec, #2
+0006 and 0028: [26/28], H[6], 0.00sec
+0011 and 0027: [24/32], H[10], 0.00sec
+0003 and 0028: 34 matches, 0.02sec, #1
+0003 and 0028: [31/34], H[9], 0.00sec
+0015 and 0028: 21 matches, 0.02sec, #0
+0007 and 0028: 33 matches, 0.02sec, #2
+0007 and 0028: [30/33], H[7], 0.00sec
+0016 and 0028: 26 matches, 0.02sec, #0
+0016 and 0028: [17/26], H[11], 0.01sec
+0004 and 0028: 32 matches, 0.02sec, #1
+0004 and 0028: [27/32], H[9], 0.00sec
+0008 and 0028: 23 matches, 0.03sec, #2
+0017 and 0028: 30 matches, 0.03sec, #0
+0009 and 0028: 24 matches, 0.02sec, #2
+0017 and 0028: [20/30], H[9], 0.00sec
+0025 and 0028: 19 matches, 0.02sec, #1
+0010 and 0028: 31 matches, 0.02sec, #2
+0010 and 0028: [26/31], H[9], 0.00sec
+0026 and 0028: 19 matches, 0.02sec, #1
+0018 and 0028: 22 matches, 0.02sec, #0
+0027 and 0028: 37 matches, 0.02sec, #1
+0027 and 0028: [34/37], H[30], 0.00sec
+0019 and 0028: 25 matches, 0.02sec, #0
+0019 and 0028: [18/25], H[12], 0.00sec
+0011 and 0028: 32 matches, 0.02sec, #2
+0011 and 0028: [27/32], H[16], 0.00sec
+0000 and 0029: 35 matches, 0.02sec, #1
+0000 and 0029: [28/35], H[10], 0.00sec
+0020 and 0028: 27 matches, 0.02sec, #0
+0012 and 0028: 38 matches, 0.01sec, #2
+0020 and 0028: [16/27], H[8], 0.00sec
+0012 and 0028: [31/38], H[8], 0.00sec
+0001 and 0029: 45 matches, 0.01sec, #1
+0001 and 0029: [36/45], H[13], 0.00sec
+0021 and 0028: 21 matches, 0.01sec, #0
+0013 and 0028: 31 matches, 0.01sec, #2
+0013 and 0028: [22/31], H[10], 0.00sec
+0022 and 0028: 15 matches, 0.01sec, #0
+0023 and 0028: 45 matches, 0.01sec, #0
+0023 and 0028: [39/45], H[14], 0.00sec
+0014 and 0028: 31 matches, 0.01sec, #2
+0014 and 0028: [23/31], H[8], 0.00sec
+0024 and 0028: 15 matches, 0.01sec, #0
+0007 and 0029: 37 matches, 0.01sec, #2
+0007 and 0029: [33/37], H[15], 0.00sec
+0017 and 0029: 32 matches, 0.01sec, #0
+0017 and 0029: [24/32], H[7], 0.00sec
+0008 and 0029: 30 matches, 0.01sec, #2
+0008 and 0029: [29/30], H[18], 0.00sec
+0018 and 0029: 34 matches, 0.01sec, #0
+0018 and 0029: [27/34], H[8], 0.00sec
+0002 and 0029: 49 matches, 0.10sec, #1
+0002 and 0029: [42/49], H[33], 0.00sec
+0009 and 0029: 32 matches, 0.01sec, #2
+0009 and 0029: [27/32], H[12], 0.00sec
+0019 and 0029: 32 matches, 0.02sec, #0
+0019 and 0029: [26/32], H[11], 0.00sec
+0010 and 0029: 32 matches, 0.03sec, #2
+0010 and 0029: [27/32], H[15], 0.00sec
+0020 and 0029: 25 matches, 0.03sec, #0
+0020 and 0029: [20/25], H[6], 0.00sec
+0011 and 0029: 28 matches, 0.04sec, #2
+0011 and 0029: [22/28], H[10], 0.00sec
+0003 and 0029: 44 matches, 0.03sec, #1
+0003 and 0029: [41/44], H[23], 0.00sec
+0021 and 0029: 24 matches, 0.03sec, #0
+0022 and 0029: 24 matches, 0.02sec, #0
+0012 and 0029: 47 matches, 0.02sec, #2
+0012 and 0029: [41/47], H[10], 0.00sec
+0004 and 0029: 47 matches, 0.02sec, #1
+0004 and 0029: [41/47], H[21], 0.00sec
+0023 and 0029: 32 matches, 0.02sec, #0
+0023 and 0029: [28/32], H[15], 0.00sec
+0013 and 0029: 31 matches, 0.02sec, #2
+0013 and 0029: [23/31], H[11], 0.00sec
+0005 and 0029: 31 matches, 0.02sec, #1
+0005 and 0029: [28/31], H[16], 0.00sec
+0024 and 0029: 23 matches, 0.02sec, #0
+0025 and 0029: 20 matches, 0.02sec, #0
+0014 and 0029: 27 matches, 0.02sec, #2
+0014 and 0029: [23/27], H[8], 0.00sec
+0006 and 0029: 40 matches, 0.02sec, #1
+0026 and 0029: 24 matches, 0.02sec, #0
+0006 and 0029: [33/40], H[13], 0.00sec
+0027 and 0029: 46 matches, 0.02sec, #0
+0027 and 0029: [44/46], H[23], 0.00sec
+0015 and 0029: 29 matches, 0.02sec, #2
+0008 and 0030: 35 matches, 0.01sec, #1
+0015 and 0029: [23/29], H[9], 0.00sec
+0008 and 0030: [27/35], H[12], 0.00sec
+0009 and 0030: 30 matches, 0.01sec, #1
+0009 and 0030: [25/30], H[9], 0.00sec
+0028 and 0029: 39 matches, 0.01sec, #0
+0028 and 0029: [35/39], H[20], 0.00sec
+0016 and 0029: 22 matches, 0.01sec, #2
+0018 and 0030: 28 matches, 0.01sec, #2
+0018 and 0030: [22/28], H[7], 0.00sec
+0010 and 0030: 29 matches, 0.01sec, #1
+0010 and 0030: [23/29], H[8], 0.00sec
+0000 and 0030: 34 matches, 0.01sec, #0
+0000 and 0030: [28/34], H[13], 0.00sec
+0019 and 0030: 30 matches, 0.02sec, #2
+0019 and 0030: [22/30], H[7], 0.00sec
+0011 and 0030: 32 matches, 0.02sec, #1
+0011 and 0030: [24/32], H[8], 0.00sec
+0001 and 0030: 37 matches, 0.02sec, #0
+0001 and 0030: [29/37], H[14], 0.00sec
+0020 and 0030: 24 matches, 0.02sec, #2
+0012 and 0030: 41 matches, 0.02sec, #1
+0012 and 0030: [31/41], H[8], 0.00sec
+0002 and 0030: 41 matches, 0.02sec, #0
+0021 and 0030: 18 matches, 0.02sec, #2
+0002 and 0030: [34/41], H[19], 0.00sec
+0022 and 0030: 14 matches, 0.01sec, #2
+0013 and 0030: 30 matches, 0.02sec, #1
+0013 and 0030: [18/30], H[11], 0.00sec
+0003 and 0030: 42 matches, 0.01sec, #0
+0023 and 0030: 32 matches, 0.02sec, #2
+0003 and 0030: [36/42], H[18], 0.00sec
+0023 and 0030: [29/32], H[9], 0.00sec
+0014 and 0030: 29 matches, 0.02sec, #1
+0014 and 0030: [26/29], H[10], 0.00sec
+0024 and 0030: 23 matches, 0.02sec, #2
+0004 and 0030: 35 matches, 0.02sec, #0
+0004 and 0030: [28/35], H[15], 0.00sec
+0025 and 0030: 19 matches, 0.01sec, #2
+0015 and 0030: 28 matches, 0.02sec, #1
+0015 and 0030: [22/28], H[8], 0.00sec
+0026 and 0030: 26 matches, 0.02sec, #2
+0026 and 0030: [16/26], H[7], 0.01sec
+0005 and 0030: 32 matches, 0.03sec, #0
+0005 and 0030: [27/32], H[11], 0.00sec
+0016 and 0030: 27 matches, 0.02sec, #1
+0016 and 0030: [22/27], H[7], 0.00sec
+0027 and 0030: 41 matches, 0.01sec, #2
+0027 and 0030: [33/41], H[18], 0.00sec
+0006 and 0030: 33 matches, 0.02sec, #0
+0006 and 0030: [28/33], H[11], 0.00sec
+0017 and 0030: 28 matches, 0.02sec, #1
+0017 and 0030: [23/28], H[12], 0.00sec
+0028 and 0030: 40 matches, 0.02sec, #2
+0028 and 0030: [34/40], H[19], 0.00sec
+0007 and 0030: 30 matches, 0.02sec, #0
+0007 and 0030: [26/30], H[9], 0.00sec
+0008 and 0031: 26 matches, 0.01sec, #1
+0029 and 0030: 42 matches, 0.01sec, #2
+0008 and 0031: [21/26], H[10], 0.00sec
+0029 and 0030: [37/42], H[24], 0.00sec
+0009 and 0031: 23 matches, 0.01sec, #1
+0018 and 0031: 24 matches, 0.02sec, #0
+0000 and 0031: 27 matches, 0.02sec, #2
+0000 and 0031: [25/27], H[8], 0.00sec
+0010 and 0031: 29 matches, 0.02sec, #1
+0010 and 0031: [26/29], H[11], 0.00sec
+0019 and 0031: 20 matches, 0.02sec, #0
+0020 and 0031: 22 matches, 0.02sec, #0
+0001 and 0031: 28 matches, 0.02sec, #2
+0001 and 0031: [25/28], H[10], 0.00sec
+0021 and 0031: 21 matches, 0.02sec, #0
+0011 and 0031: 25 matches, 0.03sec, #1
+0011 and 0031: [20/25], H[8], 0.00sec
+0022 and 0031: 16 matches, 0.02sec, #0
+0023 and 0031: 23 matches, 0.02sec, #0
+0002 and 0031: 33 matches, 0.03sec, #2
+0002 and 0031: [28/33], H[20], 0.00sec
+0012 and 0031: 31 matches, 0.02sec, #1
+0012 and 0031: [27/31], H[16], 0.00sec
+0024 and 0031: 20 matches, 0.02sec, #0
+0025 and 0031: 21 matches, 0.02sec, #0
+0013 and 0031: 28 matches, 0.02sec, #1
+0013 and 0031: [20/28], H[6], 0.00sec
+0026 and 0031: 19 matches, 0.02sec, #0
+0003 and 0031: 41 matches, 0.02sec, #2
+0003 and 0031: [36/41], H[18], 0.00sec
+0027 and 0031: 33 matches, 0.02sec, #0
+0027 and 0031: [29/33], H[14], 0.00sec
+0014 and 0031: 20 matches, 0.01sec, #1
+0015 and 0031: 22 matches, 0.01sec, #1
+0004 and 0031: 33 matches, 0.02sec, #2
+0004 and 0031: [27/33], H[9], 0.00sec
+0028 and 0031: 31 matches, 0.02sec, #0
+0028 and 0031: [27/31], H[17], 0.00sec
+0016 and 0031: 21 matches, 0.02sec, #1
+0017 and 0031: 21 matches, 0.01sec, #1
+0005 and 0031: 35 matches, 0.02sec, #2
+0005 and 0031: [30/35], H[14], 0.00sec
+0029 and 0031: 40 matches, 0.02sec, #0
+0029 and 0031: [34/40], H[17], 0.00sec
+0007 and 0032: 34 matches, 0.01sec, #1
+0007 and 0032: [29/34], H[14], 0.00sec
+0006 and 0031: 27 matches, 0.01sec, #2
+0006 and 0031: [24/27], H[11], 0.00sec
+0030 and 0031: 36 matches, 0.01sec, #0
+0030 and 0031: [32/36], H[13], 0.00sec
+0008 and 0032: 32 matches, 0.01sec, #1
+0008 and 0032: [26/32], H[15], 0.00sec
+0007 and 0031: 32 matches, 0.01sec, #2
+0007 and 0031: [28/32], H[13], 0.00sec
+0000 and 0032: 31 matches, 0.02sec, #0
+0000 and 0032: [24/31], H[15], 0.00sec
+0009 and 0032: 25 matches, 0.01sec, #1
+0009 and 0032: [19/25], H[11], 0.00sec
+0017 and 0032: 22 matches, 0.01sec, #2
+0018 and 0032: 22 matches, 0.01sec, #2
+0001 and 0032: 29 matches, 0.02sec, #0
+0001 and 0032: [23/29], H[11], 0.00sec
+0010 and 0032: 29 matches, 0.02sec, #1
+0010 and 0032: [26/29], H[6], 0.00sec
+0019 and 0032: 19 matches, 0.01sec, #2
+0020 and 0032: 20 matches, 0.01sec, #2
+0011 and 0032: 19 matches, 0.01sec, #1
+0021 and 0032: 21 matches, 0.01sec, #2
+0012 and 0032: 35 matches, 0.01sec, #1
+0012 and 0032: [28/35], H[9], 0.00sec
+0002 and 0032: 37 matches, 0.04sec, #0
+0002 and 0032: [34/37], H[23], 0.00sec
+0022 and 0032: 16 matches, 0.02sec, #2
+0023 and 0032: 34 matches, 0.01sec, #2
+0023 and 0032: [30/34], H[12], 0.00sec
+0013 and 0032: 28 matches, 0.02sec, #1
+0013 and 0032: [24/28], H[12], 0.00sec
+0024 and 0032: 14 matches, 0.01sec, #2
+0014 and 0032: 20 matches, 0.02sec, #1
+0025 and 0032: 15 matches, 0.02sec, #2
+0003 and 0032: 39 matches, 0.02sec, #0
+0003 and 0032: [33/39], H[12], 0.00sec
+0015 and 0032: 20 matches, 0.02sec, #1
+0026 and 0032: 20 matches, 0.02sec, #2
+0016 and 0032: 22 matches, 0.02sec, #1
+0027 and 0032: 35 matches, 0.02sec, #2
+0004 and 0032: 39 matches, 0.02sec, #0
+0027 and 0032: [31/35], H[21], 0.00sec
+0004 and 0032: [32/39], H[20], 0.00sec
+0029 and 0032: 41 matches, 0.02sec, #1
+0029 and 0032: [36/41], H[13], 0.00sec
+0028 and 0032: 33 matches, 0.02sec, #2
+0028 and 0032: [30/33], H[16], 0.00sec
+0005 and 0032: 37 matches, 0.02sec, #0
+0005 and 0032: [32/37], H[17], 0.00sec
+0030 and 0032: 29 matches, 0.02sec, #1
+0030 and 0032: [25/29], H[10], 0.00sec
+0031 and 0032: 32 matches, 0.02sec, #2
+0031 and 0032: [32/32], H[19], 0.00sec
+0006 and 0032: 40 matches, 0.02sec, #0
+0006 and 0032: [33/40], H[14], 0.00sec
+
+###########-------timing------#########
+528 Image Match finished, 5 sec used
+#############################
+
+Save to C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.nvm ... done
+220 pairs have two-view models
+340 pairs have fundamental matrices
+Initialize with masked27 and masked28
+Failed to initialize with the chosen pair
+Initialize with masked0 and masked4
+33 3D points initialized from two images
+PBA library version = 105
+PBA: 33 3D pts, 2 cams and 66 projs...
+PBA: 0.130 -> 0.060 (1 LMs in 0.16sec)
+Focal Length : [720.000]->[723.179]
+Focal Length : [720.000]->[717.824]
+
+#############################
+#3: [masked2] sees 51 (+26) 3D points
+Estimated Focal Length [776][1.29N]
+# 80 projs (26 pts and 0 merges)
+PBA: 59 3D pts, 3 cams and 146 projs...
+PBA: 1.483 -> 0.531 (34 LMs in 0.21sec)
+
+**************************************
+#3/3:  80 projs and 26 pts added.
+PBA: 57 3D pts, 3 cams and 142 projs...
+PBA: 0.730 -> 0.730 (11 LMs in 0.06sec)
+PBA: 57 3D pts, 3 cams and 142 projs...
+PBA: 0.730 -> 0.730 (11 LMs in 0.05sec)
+Focal Length : [776.316]->[776.519]
+Radial Distortion : [-0.106 -> -5]
+
+#############################
+#4: [masked6] sees 88 (+23) 3D points
+Estimated Focal Length [558][0.93N]
+# 79 projs (20 pts and 0 merges)
+PBA: 77 3D pts, 4 cams and 221 projs...
+PBA: 2.090 -> 2.054 (19 LMs in 0.13sec)
+#points w/ large errors:	1
+Focal Length : [557.615]->[557.223]
+Radial Distortion : [0.008 -> 0]
+
+#############################
+#5: [masked1] sees 129 (+18) 3D points
+Estimated Focal Length [664][1.11N]
+# 82 projs (14 pts and 2 merges)
+PBA: 83 3D pts, 5 cams and 290 projs...
+PBA: 5.061 -> 0.726 (52 LMs in 0.22sec)
+#unstable points removed:	6
+
+**************************************
+#5/5:  82 projs and 14 pts added.
+PBA: 77 3D pts, 5 cams and 278 projs...
+PBA: 0.926 -> 0.893 (20 LMs in 0.04sec)
+#unstable points removed:	5
+PBA: 72 3D pts, 5 cams and 264 projs...
+PBA: 1.261 -> 1.261 (15 LMs in 0.04sec)
+Focal Length : [663.922]->[793.005]
+Radial Distortion : [0.029 -> 1]
+
+#############################
+#6: [masked10] sees 135 (+16) 3D points
+Estimated Focal Length [812][1.35N]
+# 66 projs (11 pts and 1 merges)
+PBA: 81 3D pts, 6 cams and 328 projs...
+PBA: 1.654 -> 1.430 (16 LMs in 0.07sec)
+#points w/ large errors:	1
+Focal Length : [811.970]->[808.927]
+Radial Distortion : [-0.258 -> -11]
+
+#############################
+#7: [masked12] sees 142 (+23) 3D points
+Estimated Focal Length [678][1.13N]
+# 86 projs (19 pts and 0 merges)
+PBA: 96 3D pts, 7 cams and 403 projs...
+PBA: 3.563 -> 1.562 (20 LMs in 0.08sec)
+
+**************************************
+#7/7:  86 projs and 19 pts added.
+PBA: 96 3D pts, 7 cams and 403 projs...
+PBA: 1.562 -> 1.509 (19 LMs in 0.05sec)
+#unstable points removed:	1
+PBA: 95 3D pts, 7 cams and 400 projs...
+PBA: 1.517 -> 1.516 (13 LMs in 0.12sec)
+Focal Length : [678.279]->[584.077]
+Radial Distortion : [-0.047 -> -4]
+
+#############################
+#8: [masked11] sees 222 (+13) 3D points
+Estimated Focal Length [666][1.11N]
+# 56 projs (0 pts and 1 merges)
+PBA: 92 3D pts, 8 cams and 452 projs...
+PBA: 2.311 -> 1.635 (23 LMs in 0.12sec)
+Focal Length : [666.115]->[648.494]
+Radial Distortion : [-0.147 -> -10]
+
+#############################
+#9: [masked14] sees 207 (+12) 3D points
+Estimated Focal Length [797][1.33N]
+# 82 projs (11 pts and 0 merges)
+PBA: 102 3D pts, 9 cams and 532 projs...
+PBA: 2.894 -> 2.104 (16 LMs in 0.07sec)
+#points w/ large errors:	4
+#unstable points removed:	2
+
+**************************************
+#9/9:  82 projs and 11 pts added.
+PBA: 96 3D pts, 9 cams and 498 projs...
+PBA: 1.511 -> 1.269 (22 LMs in 0.25sec)
+#points w/ large errors:	1
+#unstable points removed:	3
+PBA: 92 3D pts, 9 cams and 488 projs...
+PBA: 1.248 -> 1.248 (11 LMs in 0.05sec)
+Focal Length : [797.167]->[667.767]
+Radial Distortion : [0.542 -> 32]
+
+#############################
+#10: [masked7] sees 237 (+12) 3D points
+Estimated Focal Length [672][1.12N]
+# 71 projs (8 pts and 1 merges)
+PBA: 97 3D pts, 10 cams and 555 projs...
+PBA: 1.353 -> 1.273 (26 LMs in 0.29sec)
+#points w/ large errors:	4
+#unstable points removed:	1
+Focal Length : [672.494]->[673.080]
+Radial Distortion : [0.155 -> 9]
+
+#############################
+#11: [masked13] sees 222 (+11) 3D points
+Estimated Focal Length [865][1.44N]
+# 59 projs (6 pts and 0 merges)
+PBA: 98 3D pts, 11 cams and 595 projs...
+PBA: 1.165 -> 1.154 (19 LMs in 0.07sec)
+#points w/ large errors:	4
+Focal Length : [865.222]->[835.901]
+Radial Distortion : [0.031 -> 1]
+
+#############################
+#12: [masked15] sees 261 (+9) 3D points
+Estimated Focal Length [1809][3.02N]
+# 54 projs (0 pts and 0 merges)
+PBA: 94 3D pts, 12 cams and 637 projs...
+PBA: 2.490 -> 1.712 (16 LMs in 0.15sec)
+#unstable points removed:	11
+
+**************************************
+#12/12:  54 projs and 0 pts added.
+PBA: 83 3D pts, 12 cams and 590 projs...
+PBA: 1.389 -> 1.385 (12 LMs in 0.05sec)
+PBA: 83 3D pts, 12 cams and 590 projs...
+PBA: 1.385 -> 1.385 (12 LMs in 0.05sec)
+Focal Length : [1809.397]->[1559.268]
+Radial Distortion : [0.776 -> 8]
+
+#############################
+#13: [masked5] sees 297 (+10) 3D points
+Estimated Focal Length [587][0.98N]
+# 67 projs (6 pts and 0 merges)
+PBA: 89 3D pts, 13 cams and 657 projs...
+PBA: 1.808 -> 1.738 (23 LMs in 0.07sec)
+#points w/ large errors:	1
+Radial Distortion : [0.191 -> 15]
+# 3 projs (0 pts and 0 merges)
+Focal Length : [587.036]->[586.572]
+Radial Distortion : [0.191 -> 15]
+
+#############################
+#14: [masked9] sees 330 (+8) 3D points
+Estimated Focal Length [585][0.97N]
+# 46 projs (0 pts and 0 merges)
+PBA: 87 3D pts, 14 cams and 697 projs...
+PBA: 3.355 -> 3.355 (0 LMs in 0.00sec)
+#points w/ large errors:	5
+#unstable points removed:	2
+Focal Length : [584.978]->[584.978]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#15: [masked18] sees 233 (+13) 3D points
+Estimated Focal Length [672][1.12N]
+# 52 projs (5 pts and 0 merges)
+PBA: 85 3D pts, 15 cams and 714 projs...
+PBA: 2.608 -> 2.608 (0 LMs in 0.00sec)
+#points w/ large errors:	4
+Focal Length : [671.623]->[671.623]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#16: [masked17] sees 201 (+10) 3D points
+Estimated Focal Length [738][1.23N]
+# 57 projs (4 pts and 0 merges)
+PBA: 83 3D pts, 16 cams and 740 projs...
+PBA: 3.617 -> 3.617 (0 LMs in 0.00sec)
+
+**************************************
+#16/16:  57 projs and 4 pts added.
+PBA: 83 3D pts, 16 cams and 740 projs...
+PBA: 3.617 -> 3.617 (0 LMs in 0.00sec)
+PBA: 83 3D pts, 16 cams and 740 projs...
+PBA: 3.617 -> 3.617 (0 LMs in 0.00sec)
+Focal Length : [738.187]->[738.187]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#17: [masked20] sees 121 (+15) 3D points
+Estimated Focal Length [826][1.38N]
+# 39 projs (0 pts and 0 merges)
+PBA: 83 3D pts, 17 cams and 779 projs...
+PBA: 3.263 -> 3.263 (0 LMs in 0.00sec)
+#points w/ large errors:	6
+Focal Length : [825.644]->[825.644]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#18: [masked19] sees 111 (+17) 3D points
+Estimated Focal Length [1955][3.26N]
+# 30 projs (0 pts and 0 merges)
+PBA: 77 3D pts, 18 cams and 757 projs...
+PBA: 2.450 -> 2.450 (0 LMs in 0.00sec)
+#points w/ large errors:	2
+Focal Length : [1955.072]->[1955.072]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#19: [masked3] sees 279 (+8) 3D points
+Estimated Focal Length [626][1.04N]
+# 107 projs (19 pts and 0 merges)
+PBA: 94 3D pts, 19 cams and 849 projs...
+PBA: 2.733 -> 2.733 (0 LMs in 0.00sec)
+#points w/ large errors:	3
+Focal Length : [626.484]->[626.484]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#20: [masked21] sees 175 (+13) 3D points
+Estimated Focal Length [519][0.87N]
+# 44 projs (0 pts and 0 merges)
+PBA: 90 3D pts, 20 cams and 850 projs...
+PBA: 2.943 -> 2.943 (0 LMs in 0.00sec)
+#points w/ large errors:	5
+Focal Length : [519.349]->[519.349]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#21: [masked24] sees 111 (+19) 3D points
+Estimated Focal Length [594][0.99N]
+# 27 projs (0 pts and 0 merges)
+SKIP: 0 cams, 19 points, 21 projs
+PBA: 84 3D pts, 20 cams and 854 projs...
+PBA: 3.286 -> 3.286 (0 LMs in 0.00sec)
+#points w/ large errors:	4
+
+**************************************
+#21/21:  27 projs and 0 pts added.
+PBA: 80 3D pts, 21 cams and 802 projs...
+PBA: 2.647 -> 2.647 (0 LMs in 0.00sec)
+PBA: 80 3D pts, 21 cams and 802 projs...
+PBA: 2.647 -> 2.647 (0 LMs in 0.00sec)
+Focal Length : [594.416]->[594.416]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#22: [masked26] sees 147 (+22) 3D points
+Estimated Focal Length [639][1.07N]
+# 37 projs (0 pts and 0 merges)
+SKIP: 0 cams, 25 points, 0 projs
+PBA: 80 3D pts, 20 cams and 839 projs...
+PBA: 3.066 -> 3.066 (0 LMs in 0.00sec)
+Focal Length : [639.160]->[639.160]
+Radial Distortion : [0.000 -> 0]
+
+#############################
++23: [masked27] sees 106 (+25) 3D points
+Estimated Focal Length [1398][2.33N]
+# 30 projs (0 pts and 0 merges)
+SKIP: 0 cams, 25 points, 0 projs
+PBA: 80 3D pts, 20 cams and 869 projs...
+PBA: 3.078 -> 3.078 (0 LMs in 0.00sec)
+#points w/ large errors:	3
+Focal Length : [1398.018]->[1398.018]
+Radial Distortion : [0.000 -> 0]
+
+#############################
++24: [masked28] sees 99 (+32) 3D points
+Estimated Focal Length [727][1.21N]
+# 25 projs (0 pts and 0 merges)
+SKIP: 0 cams, 29 points, 37 projs
+PBA: 76 3D pts, 20 cams and 857 projs...
+PBA: 2.763 -> 2.763 (0 LMs in 0.00sec)
+#points w/ large errors:	4
+Focal Length : [727.470]->[727.470]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#25: [masked29] sees 62 (+32) 3D points
+Estimated Focal Length [355][0.59W]
+# 18 projs (0 pts and 0 merges)
+ERROR: too few projections are initiated
+
+#############################
+#25: [masked23] sees 132 (+23) 3D points
+Estimated Focal Length [1989][3.31N]
+# 22 projs (0 pts and 0 merges)
+SKIP: 0 cams, 32 points, 67 projs
+PBA: 73 3D pts, 21 cams and 832 projs...
+PBA: 3.235 -> 3.235 (0 LMs in 0.00sec)
+#points w/ large errors:	2
+Focal Length : [1988.792]->[1988.792]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#26: [masked30] sees 58 (+25) 3D points
+Estimated Focal Length [1627][2.71N]
+# 19 projs (0 pts and 0 merges)
+ERROR: too few projections are initiated
+
+#############################
+#26: [masked25] sees 141 (+16) 3D points
+Estimated Focal Length [593][0.99N]
+# 19 projs (0 pts and 0 merges)
+ERROR: too few projections are initiated
+
+#############################
+#26: [masked22] sees 141 (+16) 3D points
+Estimated Focal Length [341][0.57W]
+# 17 projs (0 pts and 0 merges)
+ERROR: too few projections are initiated
+
+#############################
+#26: [masked32] sees 72 (+20) 3D points
+Estimated Focal Length [308][0.51W]
+# 17 projs (0 pts and 0 merges)
+ERROR: too few projections are initiated
+
+#############################
+#26: [masked16] sees 287 (+6) 3D points
+Estimated Focal Length [850][1.42N]
+# 123 projs (21 pts and 0 merges)
+PBA: 92 3D pts, 26 cams and 943 projs...
+PBA: 3.920 -> 3.920 (0 LMs in 0.00sec)
+#points w/ large errors:	1
+Focal Length : [850.313]->[850.313]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#27: [masked8] sees 292 (+4) 3D points
+Estimated Focal Length [678][1.13N]
+# 76 projs (6 pts and 1 merges)
+SKIP: 0 cams, 12 points, 24 projs
+PBA: 92 3D pts, 20 cams and 993 projs...
+PBA: 3.376 -> 3.376 (0 LMs in 0.00sec)
+#points w/ large errors:	10
+
+**************************************
+#27/27:  76 projs and 6 pts added.
+PBA: 85 3D pts, 27 cams and 950 projs...
+PBA: 2.525 -> 2.525 (0 LMs in 0.00sec)
+PBA: 85 3D pts, 27 cams and 950 projs...
+PBA: 2.525 -> 2.525 (0 LMs in 0.00sec)
+Focal Length : [677.729]->[677.729]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#28: [masked31] sees 50 (+16) 3D points
+Estimated Focal Length [2730][4.55N]
+# 21 projs (0 pts and 0 merges)
+SKIP: 0 cams, 20 points, 0 projs
+PBA: 85 3D pts, 20 cams and 971 projs...
+PBA: 3.466 -> 3.466 (0 LMs in 0.00sec)
+#points w/ large errors:	6
+Focal Length : [2729.876]->[2729.876]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#29: [masked29] sees 84 (+38) 3D points
+Estimated Focal Length [2121][3.53N]
+# 26 projs (0 pts and 0 merges)
+SKIP: 0 cams, 27 points, 75 projs
+PBA: 78 3D pts, 20 cams and 922 projs...
+PBA: 2.677 -> 2.677 (0 LMs in 0.00sec)
+#points w/ large errors:	2
+Focal Length : [2120.758]->[2120.758]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#30: [masked25] sees 152 (+37) 3D points
+Estimated Focal Length [421][0.70N]
+# 31 projs (0 pts and 0 merges)
+SKIP: 0 cams, 32 points, 49 projs
+PBA: 72 3D pts, 20 cams and 905 projs...
+PBA: 3.299 -> 3.299 (0 LMs in 0.00sec)
+Focal Length : [420.908]->[420.908]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#31: [masked22] sees 165 (+30) 3D points
+Estimated Focal Length [682][1.14N]
+# 252 projs (44 pts and 3 merges)
+SKIP: 0 cams, 7 points, 22 projs
+PBA: 108 3D pts, 20 cams and 1150 projs...
+PBA: 7.257 -> 7.257 (0 LMs in 0.00sec)
+#points w/ large errors:	3
+Focal Length : [681.893]->[681.893]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#32: [masked32] sees 123 (+29) 3D points
+Estimated Focal Length [501][0.84N]
+# 34 projs (0 pts and 0 merges)
+PBA: 105 3D pts, 32 cams and 1142 projs...
+PBA: 6.722 -> 6.722 (0 LMs in 0.00sec)
+#points w/ large errors:	26
+Focal Length : [501.434]->[501.434]
+Radial Distortion : [0.000 -> 0]
+
+#############################
+#33: [masked30] sees 118 (+41) 3D points
+Estimated Focal Length [699][1.17N]
+# 31 projs (0 pts and 1 merges)
+SKIP: 0 cams, 44 points, 231 projs
+PBA: 70 3D pts, 20 cams and 946 projs...
+PBA: 4.004 -> 4.004 (0 LMs in 0.00sec)
+#points w/ large errors:	5
+Focal Length : [699.355]->[699.354]
+Radial Distortion : [0.000 -> 0]
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+#33/33:  0 projs and 0 pts added.
+PBA: 75 3D pts, 33 cams and 908 projs...
+PBA: 3.075 -> 3.075 (0 LMs in 0.00sec)
+#points w/ large errors:	12
+PBA: 63 3D pts, 33 cams and 729 projs...
+PBA: 2.035 -> 2.035 (0 LMs in 0.00sec)
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 2 sec used
+
+---------------------------------------------------
+33 cams, 116 pts (3+: 59)
+729 projections (3+: 721)
+---------------------------------------------------
+1 model(s) reconstructed from 33 images;
+33 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 3 sec used
+2.5(2.5) seconds on Bundle Adjustment (+)
+2.4(2.4) seconds on Bundle Adjustment (*)
+#############################
+Save to C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.nvm ... done
+
+#############################
+Undistorting 33 images in model #0
+param_undistortion_thread_num = 0
+NOTE: using 8 threads...
+#04: masked10 -> 00000005.jpg, 0.068 sec
+#05: masked12 -> 00000006.jpg, 0.068 sec
+#05: masked18 -> 00000014.jpg, 0.001 sec
+#03: masked1 -> 00000004.jpg, 0.071 sec
+#05: masked17 -> 00000015.jpg, 0.001 sec
+#00: masked0 -> 00000000.jpg, 0.073 sec
+#02: masked2 -> 00000002.jpg, 0.075 sec
+#03: masked20 -> 00000016.jpg, 0.002 sec
+#06: masked11 -> 00000007.jpg, 0.075 sec
+#05: masked3 -> 00000018.jpg, 0.001 sec
+#05: masked21 -> 00000019.jpg, 0.002 sec
+#03: masked19 -> 00000017.jpg, 0.002 sec
+#05: masked27 -> 00000022.jpg, 0.001 sec
+#06: masked24 -> 00000020.jpg, 0.003 sec
+#05: masked28 -> 00000023.jpg, 0.001 sec
+#06: masked26 -> 00000021.jpg, 0.001 sec
+#03: masked23 -> 00000024.jpg, 0.002 sec
+#06: masked29 -> 00000028.jpg, 0.001 sec
+#03: masked16 -> 00000025.jpg, 0.002 sec
+#03: masked22 -> 00000030.jpg, 0.001 sec
+#06: masked25 -> 00000029.jpg, 0.002 sec
+#03: masked32 -> 00000031.jpg, 0.001 sec
+#05: masked8 -> 00000026.jpg, 0.007 sec
+#06: masked30 -> 00000032.jpg, 0.001 sec
+#05: masked31 -> 00000027.jpg, 0.001 sec
+#01: masked14 -> 00000008.jpg, 0.104 sec
+#07: masked13 -> 00000010.jpg, 0.113 sec
+#04: masked5 -> 00000012.jpg, 0.072 sec
+#04: masked9 -> 00000013.jpg, 0.001 sec
+#00: masked4 -> 00000001.jpg, 0.070 sec
+#02: masked6 -> 00000003.jpg, 0.070 sec
+#01: masked7 -> 00000009.jpg, 0.063 sec
+#07: masked15 -> 00000011.jpg, 0.061 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.nvm.cmvs\00\ 50 8
+genOption C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.nvm.cmvs\00\ 1 2 0.700000 7 3 8
+1 cluster is generated for pmvs reconstruction.
+pmvs2 C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.nvm.cmvs\00\ option-0000
+This may take a little more time, waiting...
+3 seconds were used by PMVS
+Loading option-0000.ply, 1702 vertices ...
+Loading patches and estimating point sizes..
+Save to C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.nvm ... done
+Save C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\myresult.0.ply ...done
+----------------------------------------------------------------
+VisualSFM 3D reconstruction, finished
+Totally 16.000 seconds used
+
+__LogFile: C:\Users\chin1\Desktop\final\VisualSFM_windows_cuda_64bit\log\[20_02_14][17_20_03][590].log

@@ -1,0 +1,15 @@
+<!DOCTYPE FilterScript>
+<FilterScript>
+ <filter name="Surface Reconstruction: Ball Pivoting">
+  <Param min="0" type="RichAbsPerc" name="BallRadius" value="0" description="Pivoting Ball radius (0 autoguess)" max="11.8652" tooltip="The radius of the ball pivoting (rolling) over the set of points. Gaps that are larger than the ball radius will not be filled; similarly the small pits that are smaller than the ball radius will be filled."/>
+  <Param type="RichFloat" name="Clustering" value="20" description="Clustering radius (% of ball radius)" tooltip="To avoid the creation of too small triangles, if a vertex is found too close to a previous one, it is clustered/merged with it."/>
+  <Param type="RichFloat" name="CreaseThr" value="90" description="Angle Threshold (degrees)" tooltip="If we encounter a crease angle that is too large we should stop the ball rolling"/>
+  <Param type="RichBool" name="DeleteFaces" value="false" description="Delete intial set of faces" tooltip="if true all the initial faces of the mesh are deleted and the whole surface is rebuilt from scratch, other wise the current faces are used as a starting point. Useful if you run multiple times the algorithm with an incrasing ball radius."/>
+ </filter>
+ <filter name="Surface Reconstruction: Ball Pivoting">
+  <Param min="0" type="RichAbsPerc" name="BallRadius" value="0" description="Pivoting Ball radius (0 autoguess)" max="11.8652" tooltip="The radius of the ball pivoting (rolling) over the set of points. Gaps that are larger than the ball radius will not be filled; similarly the small pits that are smaller than the ball radius will be filled."/>
+  <Param type="RichFloat" name="Clustering" value="20" description="Clustering radius (% of ball radius)" tooltip="To avoid the creation of too small triangles, if a vertex is found too close to a previous one, it is clustered/merged with it."/>
+  <Param type="RichFloat" name="CreaseThr" value="90" description="Angle Threshold (degrees)" tooltip="If we encounter a crease angle that is too large we should stop the ball rolling"/>
+  <Param type="RichBool" name="DeleteFaces" value="false" description="Delete intial set of faces" tooltip="if true all the initial faces of the mesh are deleted and the whole surface is rebuilt from scratch, other wise the current faces are used as a starting point. Useful if you run multiple times the algorithm with an incrasing ball radius."/>
+ </filter>
+</FilterScript>

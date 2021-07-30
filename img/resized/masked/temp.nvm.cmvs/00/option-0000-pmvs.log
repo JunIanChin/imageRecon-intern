@@ -1,0 +1,79 @@
+
+pmvs2
+C:\Users\chin1\Desktop\final\img\resized\masked\temp.nvm.cmvs\00\
+option-0000--------------------------------------------------
+--- Summary of specified options ---
+# of timages: 4 (enumeration)
+# of oimages: 0 (enumeration)
+level: 1  csize: 2
+threshold: 0.7  wsize: 7
+minImageNum: 3  CPU: 8
+useVisData: 1  sequence: -1
+--------------------------------------------------
+Reading images: ****
+16 Harris running ...25 31Harris running ... 34 Harris running ...Harris running ...110 harris done
+DoG running...134 harris done
+82 harris done
+89 harris done
+DoG running...DoG running...DoG running...83 dog done
+82 dog done
+124 dog done
+88 dog done
+done
+adding seeds 
+(3,6)(1(0,,98))(2,9)done
+---- Initial: 0 secs ----
+Total pass fail0 fail1 refinepatch: 882 48 821 13 61
+Total pass fail0 fail1 refinepatch: 100 5.44218 93.0839 1.47392 6.9161
+Expanding patches...
+---- EXPANSION: 0 secs ----
+Total pass fail0 fail1 refinepatch: 1922 1165 596 161 1326
+Total pass fail0 fail1 refinepatch: 100 60.6139 31.0094 8.37669 68.9906
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.808837 0.197345
+1197 -> 1195 (99.8329%)	0 secs
+Filter Exact: ****
+1195 -> 1098 (91.8828%)	0 secs
+FilterNeighbor:	1098 -> 915 (83.3333%)	0 secs
+FilterGroups:	20
+915 -> 830 (90.7104%)	0 secs
+STATUS: 22 0 1365 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 0 secs ----
+Total pass fail0 fail1 refinepatch: 625 268 222 135 403
+Total pass fail0 fail1 refinepatch: 100 42.88 35.52 21.6 64.48
+FilterOutside
+mainbody: 
+Gain (ave/var): 0.976584 0.210506
+1098 -> 1098 (100%)	0 secs
+Filter Exact: ****
+1098 -> 1062 (96.7213%)	0 secs
+FilterNeighbor:	1062 -> 1024 (96.4218%)	0 secs
+FilterGroups:	20
+1024 -> 1018 (99.4141%)	0 secs
+STATUS: 27 0 1763 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+Expanding patches...
+---- EXPANSION: 0 secs ----
+Total pass fail0 fail1 refinepatch: 209 79 87 43 122
+Total pass fail0 fail1 refinepatch: 100 37.799 41.6268 20.5742 58.3732
+FilterOutside
+mainbody: 
+Gain (ave/var): 1.12968 0.22698
+1097 -> 1097 (100%)	0 secs
+Filter Exact: ****
+1097 -> 1076 (98.0857%)	0 secs
+FilterNeighbor:	1076 -> 1056 (98.1413%)	0 secs
+FilterGroups:	20
+1056 -> 1053 (99.7159%)	0 secs
+STATUS: 30 0 1882 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 
+---- Total: 0 secs ----

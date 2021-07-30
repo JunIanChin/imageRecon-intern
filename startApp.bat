@@ -1,0 +1,3 @@
+@ECHO OFF 
+PYTHON gui.py
+PAUSE
